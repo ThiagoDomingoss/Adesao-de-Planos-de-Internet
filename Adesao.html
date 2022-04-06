@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adesão</title>
+</head>
+<body>
+    <div class="btnvoltar"><a href="index.html">Voltar</a></div>
+    <div class="geral">
+        <div class="Conteudo">
+            <form action="https://formsubmit.co/testemailproject0@gmail.com" method="post">
+                <h1 id="t1">ADESÃO</h1>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500//Obrigado.html">
+                <input type="hidden" name="_autoresponse" value="Olá, muito obrigado pelo contato. Recebemos sua mensagem, logo entraremos em contato.">
+                <input type="name" name="nome" placeholder="Nome" id="Nome" required>
+                <input type="email" name="email" placeholder="Email" id="Email" required>
+                <input type="text" name="CPF" placeholder="CPF" id="CPF" required>
+                <input type="tel" name="Telefone" placeholder="Telefone" id="Telefone" required>
+                <input type="text" name="Endereço" placeholder="Endereço" id="Endereço" required>
+                <input type="text" name="Número" placeholder="Número" id="Número" required>
+                <input type="text" name="Bairro" placeholder="Bairro" id="Bairro" required>
+                <input type="text" name="Cidade" placeholder="Cidade" id="Cidade" required>
+                <input type="text" name="Estado" placeholder="Estado" id="estado" required>
+                <h3>Qual plano deseja?</h3>
+                <select name="planos" id="planos" onchange="valores()">
+                    <option value="">--</option>
+                    <option value="50MB por R$60,00/mês" >Básico</option>
+                    <option value="100MB por R$79,00/mês">Casual</option>
+                    <option value="200MB por R$119,00/mês">Plus</option>
+                    <option value="500MB por R$249,00/mês">Premium</option>
+                </select>
+                <h2 id="valor"></h2>
+                <a href="#"><button type="submit">ADERIR</button></a>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="click.js"></script>
+</html>
